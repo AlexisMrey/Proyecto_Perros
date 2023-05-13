@@ -276,7 +276,7 @@ perro(
         25
         ),
     pelaje(
-        textura(durp),
+        textura(duro),
         largo(largo)
     ),
     nivela_actividad(alto),
@@ -291,7 +291,7 @@ perro(
 
     ],
     [
-         'Realizar exámenes médicos seguido.',
+         'Realizar examenes medicos seguido.',
          'Cepillado/Limpieza constante.'
     ]
 ).
@@ -331,38 +331,136 @@ perro(
     ]
 ).
 
+% 11. Doberman
 perro(
-    raza(prueba),
+    raza(doberman),
     tamanio(
-        pequenio
+        grande
     ),
     altura(
-        20,
-        35
+        70,
+        80
         ),
     peso(
-        3,
-        10
+        25,
+        45
         ),
     pelaje(
         textura(suave),
-        largo(cort)
+        largo(corto)
     ),
-    nivela_actividad(medio),
+    nivela_actividad(alto),
     [
+        "Sindrome de Wobbler.",
+        "Enfermedad de von Willebrand.",
+        "Cardiomiopatía dilatada.",
+        "Osteosarcoma.",
+        "Hipotiroidismo."
+
     ],
     [
-         'Llevar un control sobre lo que come.',
-         'Realizar exámenes médicos seguido.',
          'Ejercitar seguido.',
-         'Tener en espacios grandes.',
-         'Cepillado/Limpieza constante.',
-         'Control de temperatura.',
+         'Tener en espacios grandes.',     
          'Socializar y entrenar desde cachorro.'
     ]
 ).
 
 
+
+% 12. Xoloitzcuintle
+perro(
+    raza(xoloitzcuintle),
+    tamanio(
+        mediano
+    ),
+    altura(
+        35,
+        40
+        ),
+    peso(
+        10,
+        25
+        ),
+    pelaje(
+        textura(duro),
+        largo(sin_pelo)
+    ),
+    nivela_actividad(bajo),
+    [
+       "Quemaduras.",
+       "Luxacion de rotula.",
+       "Displasia de cadera.",
+       "Problemas dentales."
+    ],
+    [
+         'Realizar exámenes médicos seguido.',    
+         'Socializar y entrenar desde cachorro.'
+    ]
+).
+
+% 13. Golden Retriever
+perro(
+    raza(prueba),
+    tamanio(
+        mediano
+    ),
+    altura(
+        55,
+        70
+        ),
+    peso(
+        25,
+        45
+        ),
+    pelaje(
+        textura(denso),
+        largo(corto)
+    ),
+    nivela_actividad(alto),
+    [
+        "Problemas de piel",
+        "Displasia de cadera",
+        "Cataratas y glaucoma hemangiosarcomas y linfomas"
+    ],
+    [
+         'Llevar un control sobre lo que come.',
+         'Realizar exámenes médicos seguido.',
+         'Ejercitar seguido.',
+         'Tener en espacios grandes.'
+    ]
+).
+
+% Pastor Aleman
+perro(
+    raza(prueba),
+    tamanio(
+        mediano
+    ),
+    altura(
+        55,
+        70
+        ),
+    peso(
+        25,
+        45
+        ),
+    pelaje(
+        textura(denso),
+        largo(medio)
+    ),
+    nivela_actividad(alto),
+    [
+        "Displasia de cadera"
+    ],
+    [
+         'Realizar exámenes médicos seguido.',
+         'Ejercitar seguido.',
+         'Tener en espacios grandes.',
+         'Socializar y entrenar desde cachorro.'
+    ]
+).
+
+%15. Pastor Belga
 perro(
     raza(pastor_belga),
     tamanio(
@@ -381,6 +479,85 @@ perro(
         largo(medio)
     ),
     nivela_actividad(alto),
-    ['Problemas de piel.','Cataratas y atrofia progresiva de la retina.', 'El sindrome de exfoliación.','Glaucóma.'],
-    ['Asear cada 6 meses.','Realizar examenes medicos seguido.','Ejercitar seguido.','Tener espacios grandes.']
+    [
+        'Problemas de piel.',
+        'Cataratas y atrofia progresiva de la retina.', 
+        'El sindrome de exfoliación.',
+        'Glaucóma.'
+    ],
+    [
+        'Asear cada 6 meses.',
+        'Realizar examenes medicos seguido.',
+        'Ejercitar seguido.',
+        'Tener espacios grandes.'
+    ]
 ).
+
+
+perro(
+    raza(prueba),
+    tamanio(
+        pequenio
+    ),
+    altura(
+        20,
+        35
+        ),
+    peso(
+        3,
+        10
+        ),
+    pelaje(
+        textura(suave),
+        largo(corto)
+    ),
+    nivela_actividad(medio),
+    [
+    ],
+    [
+         'Llevar un control sobre lo que come.',
+         'Realizar exámenes médicos seguido.',
+         'Ejercitar seguido.',
+         'Tener en espacios grandes.',
+         'Cepillado/Limpieza constante.',
+         'Control de temperatura.',
+         'Socializar y entrenar desde cachorro.'
+    ]
+).
+
+
+perro(
+    raza(prueba),
+    tamanio(
+        pequenio
+    ),
+    altura(
+        20,
+        35
+        ),
+    peso(
+        3,
+        10
+        ),
+    pelaje(
+        textura(suave),
+        largo(corto)
+    ),
+    nivela_actividad(medio),
+    [
+    ],
+    [
+         'Llevar un control sobre lo que come.',
+         'Realizar exámenes médicos seguido.',
+         'Ejercitar seguido.',
+         'Tener en espacios grandes.',
+         'Cepillado/Limpieza constante.',
+         'Control de temperatura.',
+         'Socializar y entrenar desde cachorro.'
+    ]
+).
+
+
+
+
+
