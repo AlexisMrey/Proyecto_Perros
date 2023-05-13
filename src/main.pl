@@ -10,27 +10,27 @@ sistema :-
     main.
 
 obtener_tamanio(Tamanio):-
-    writeln('¿Cuál es el tamaño de tu perro? (pequenio/mediano/grande):'),
+    writeln('Cual es el tamaño de tu perro? (pequenio/mediano/grande):'),
     read(Tamanio).
 
 obtener_altura(Altura) :-
-    writeln('¿Cuál es la altura en cm de tu perro? (Mayor a 10, altura a la cruz):'),
+    writeln('Cual es la altura en cm de tu perro? (Mayor a 10, altura a la cruz):'),
     read(Altura).
 
 obtener_peso(Peso):-
-    writeln('¿Cuál es el peso en kg de tu perro? (Mayor a 1):'),
+    writeln('Cual es el peso en kg de tu perro? (Mayor a 1):'),
     read(Peso).
 
 obtener_textura_pelaje(TipoPelaje):-
-    writeln('¿Cuál es el tipo de pelaje de tu perro? (suave/denso/duro)'),
+    writeln('Cual es el tipo de pelaje de tu perro? (suave/denso/duro)'),
     read(TipoPelaje).
 
 obtener_largo_pelaje(LargoPelaje) :-
-    writeln('¿Cuál es el largo del pelaje de tu perro? (sin_pelo/corto/medio/largo)'),
+    writeln('Cual es el largo del pelaje de tu perro? (sin_pelo/corto/medio/largo)'),
     read(LargoPelaje).
 
 obtener_nivel_actividad(Nivel):-
-    writeln('¿Cuál es el nivel de actividad de tu perro? (bajo/medio/alto)'),
+    writeln('Cual es el nivel de actividad de tu perro? (bajo/medio/alto)'),
     read(Nivel).
 
 
