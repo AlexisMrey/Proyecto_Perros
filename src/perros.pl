@@ -286,7 +286,7 @@ perro(
         "Dermoides.",
         "Problemas en el disco, dislocación rotuliana.",
         "Enfermedad de Von Willebrand.",
-        "Cataratas, glaucoma, atrofia progresiva de retina.,"
+        "Cataratas, glaucoma, atrofia progresiva de retina.,",
         "Sordera.",
         "Histiocitoma.",
         "Epilepsia, hipotiroidismo, palaar hendido."
