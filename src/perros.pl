@@ -52,7 +52,7 @@ perro(
     nivela_actividad(medio),
     [
         "Problemas de piel.",
-        "Displasia de cadera, luxación patelar",
+        "Displasia de cadera, luxacion patelar",
         "Cataratas.",
         "Problemas respiratorios.",
         "Obesidad."
@@ -183,7 +183,7 @@ perro(
     nivela_actividad(medio),
     [
         "Displasia de cadera,enfermedad del disco.",
-        "Úlceras corneales y queratitis pigmentaria.",
+        "Ulceras corneales y queratitis pigmentaria.",
         "Encefalitis."
     ],
     [
@@ -247,7 +247,7 @@ perro(
     nivela_actividad(medio),
     [
         "Alopecia.",
-        "Luxación de rótula.",
+        "Luxacion de rotula.",
         "displasia del codo.",
         "enfermedad del disco intervertebral.",
         "Conducto arterial persistente.",
@@ -282,7 +282,7 @@ perro(
     nivela_actividad(alto),
     [
         "Dermoides.",
-        "Problemas en el disco, dislocación rotuliana.",
+        "Problemas en el disco, dislocacion rotuliana.",
         "Enfermedad de Von Willebrand.",
         "Cataratas, glaucoma, atrofia progresiva de retina.,",
         "Sordera.",
@@ -318,7 +318,7 @@ perro(
     nivela_actividad(alto),
     [
         "Alopecia.",
-        "Luxacion patelar, derivación portosistémica",
+        "Luxacion patelar, derivacion portosistemica",
         "Entropion canino. ",
         "Displasia de retina, cataratas.",
         "Colapso traqueal.",
@@ -353,7 +353,7 @@ perro(
     [
         "Sindrome de Wobbler.",
         "Enfermedad de von Willebrand.",
-        "Cardiomiopatía dilatada.",
+        "Cardiomiopatia dilatada.",
         "Osteosarcoma.",
         "Hipotiroidismo."
 
@@ -482,8 +482,8 @@ perro(
     [
         'Problemas de piel.',
         'Cataratas y atrofia progresiva de la retina.', 
-        'El sindrome de exfoliación.',
-        'Glaucóma.'
+        'El sindrome de exfoliacion.',
+        'Glaucoma.'
     ],
     [
         'Asear cada 6 meses.',
@@ -632,7 +632,7 @@ perro(
     ]
 ).
 
-% 20. Gran danés
+% 20. Gran danes
 perro(
     raza(gran_danes),
     tamanio(
@@ -652,7 +652,7 @@ perro(
     ),
     nivela_actividad(alto),
     [
-        "Displasia de cadera	la miocardiopatía dilatada.",
+        "Displasia de cadera	la miocardiopatia dilatada.",
         "Atrofia progresiva de la retina.",
         "Osteosarcoma."
     ],
