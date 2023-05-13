@@ -1,4 +1,4 @@
-%beagle
+%1.beagle
 perro(
     raza(beagle),
     tamanio(
@@ -31,7 +31,7 @@ perro(
     ]
 ).
 
-%bulldog_frances
+%2.bulldog_frances
 perro(
     raza(bulldog_frances),
     tamanio(
@@ -228,9 +228,9 @@ perro(
     ]
 ).
 
-
+%8. Pomerania
 perro(
-    raza(prueba),
+    raza(pomerania),
     tamanio(
         pequenio
     ),
@@ -239,27 +239,99 @@ perro(
         35
         ),
     peso(
-        3,
-        10
+        1,
+        3
         ),
     pelaje(
         textura(suave),
-        largo(cort)
+        largo(medio)
     ),
     nivela_actividad(medio),
     [
+        "Alopecia.",
+        "Luxación de rótula.",
+        "displasia del codo.",
+        "enfermedad del disco intervertebral.",
+        "Conducto arterial persistente.",
+        "Cataratas.",
+        "Colapso traqueal.",
+        "Hipotiroidismo."
     ],
     [
-         'Llevar un control sobre lo que come.',
-         'Realizar exámenes médicos seguido.',
-         'Ejercitar seguido.',
-         'Tener en espacios grandes.',
-         'Cepillado/Limpieza constante.',
-         'Control de temperatura.',
-         'Socializar y entrenar desde cachorro.'
+         'Ejercitar seguido.',    
+         'Cepillado/Limpieza constante.'
     ]
 ).
 
+% 9-.Perro salchicha
+perro(
+    raza(salchicha),
+    tamanio(
+        pequenio
+    ),
+    altura(
+        10,
+        20
+        ),
+    peso(
+        10,
+        25
+        ),
+    pelaje(
+        textura(durp),
+        largo(largo)
+    ),
+    nivela_actividad(alto),
+    [
+        "Dermoides.",
+        "Problemas en el disco, dislocación rotuliana.",
+        "Enfermedad de Von Willebrand.",
+        "Cataratas, glaucoma, atrofia progresiva de retina.,"
+        "Sordera.",
+        "Histiocitoma.",
+        "Epilepsia, hipotiroidismo, palaar hendido."
+
+    ],
+    [
+         'Realizar exámenes médicos seguido.',
+         'Cepillado/Limpieza constante.'
+    ]
+).
+
+
+% 10. Yorkshire Terrier
+perro(
+    raza(yorkshire_terrier),
+    tamanio(
+        pequenio
+    ),
+    altura(
+        10,
+        20
+        ),
+    peso(
+        1,
+        3
+        ),
+    pelaje(
+        textura(suave),
+        largo(largo)
+    ),
+    nivela_actividad(alto),
+    [
+        "Alopecia.",
+        "Luxacion patelar, derivación portosistémica",
+        "Entropion canino. ",
+        "Displasia de retina, cataratas.",
+        "Colapso traqueal.",
+        "Hidrocefalia."
+    ],
+    [
+         'Llevar un control sobre lo que come.',
+         'Ejercitar seguido.',
+         'Cepillado/Limpieza constante.'
+    ]
+).
 
 perro(
     raza(prueba),
