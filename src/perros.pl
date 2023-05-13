@@ -287,7 +287,7 @@ perro(
         "Cataratas, glaucoma, atrofia progresiva de retina.,",
         "Sordera.",
         "Histiocitoma.",
-        "Epilepsia, hipotiroidismo, palaar hendido."
+        "Epilepsia, hipotiroidismo, paldar hendido."
 
     ],
     [
@@ -400,7 +400,7 @@ perro(
 
 % 13. Golden Retriever
 perro(
-    raza(prueba),
+    raza(golden_retriever),
     tamanio(
         mediano
     ),
@@ -432,7 +432,7 @@ perro(
 
 % Pastor Aleman
 perro(
-    raza(prueba),
+    raza(pastor_aleman),
     tamanio(
         mediano
     ),
@@ -565,7 +565,7 @@ perro(
 
 % 18.Pitbull
 perro(
-    raza(prueba),
+    raza(pitbull),
     tamanio(
         mediano
     ),
@@ -598,7 +598,7 @@ perro(
 
 % 19. Pastor Autraliano
 perro(
-    raza(prueba),
+    raza(pastor_autraliano),
     tamanio(
         mediano
     ),
@@ -616,7 +616,7 @@ perro(
     ),
     nivela_actividad(alto),
     [
-        "Displasia de cadera y codo,	enfermedad de von Willebrand.",
+        "Displasia de cadera y codo, enfermedad de von Willebrand.",
         "Problemas oculares, Collie Eye Anomaly.",
         "Atrofia progresiva de retina.",
         "Problemas respiratorios epilepsia.",
@@ -652,7 +652,7 @@ perro(
     ),
     nivela_actividad(alto),
     [
-        "Displasia de cadera	la miocardiopatia dilatada.",
+        "Displasia de cader, miocardiopatia dilatada.",
         "Atrofia progresiva de la retina.",
         "Osteosarcoma."
     ],
