@@ -100,9 +100,7 @@ perro(
 %4. chihuahua
 perro(
     raza(chihuahua),
-    tamanio(
-        pequenio
-    ),
+    tamanio(pequenio),
     altura(
         10,
         20
@@ -113,7 +111,7 @@ perro(
         ),
     pelaje(
         textura(suave),
-        largo(cort0)
+        largo(corto)
     ),
     nivela_actividad(medio),
     [
