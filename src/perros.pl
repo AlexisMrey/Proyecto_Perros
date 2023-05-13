@@ -24,7 +24,7 @@ perro(
         "Obesidad, hipotiroidismo, epilepsia."
     ],
     [
-         'Realizar exámenes médicos seguido.',
+         'Realizar examenes medicos seguido.',
          'Ejercitar seguido.',
          'Tener en espacios grandes.',
          'Cepillado/Limpieza constante.'
@@ -58,7 +58,7 @@ perro(
         "Obesidad."
     ],
     [
-         'Realizar exámenes médicos seguido.',    
+         'Realizar examenes medicos seguido.',    
          'Cepillado/Limpieza constante.',
          'Control de temperatura.'
     ]
@@ -91,7 +91,7 @@ perro(
         "Alergias."
     ],
     [
-         'Realizar exámenes médicos seguido.',
+         'Realizar examenes medicos seguido.',
          'Ejercitar seguido.',
          'Socializar y entrenar desde cachorro.'
     ]
@@ -188,7 +188,7 @@ perro(
     ],
     [
          'Llevar un control sobre lo que come.',
-         'Realizar exámenes médicos seguido.',
+         'Realizar examenes medicos seguido.',
          'Cepillado/Limpieza constante.',
          'Control de temperatura.'
     ]
@@ -393,7 +393,7 @@ perro(
        "Problemas dentales."
     ],
     [
-         'Realizar exámenes médicos seguido.',    
+         'Realizar examenes medicos seguido.',    
          'Socializar y entrenar desde cachorro.'
     ]
 ).
@@ -424,7 +424,7 @@ perro(
     ],
     [
          'Llevar un control sobre lo que come.',
-         'Realizar exámenes médicos seguido.',
+         'Realizar examenes medicos seguido.',
          'Ejercitar seguido.',
          'Tener en espacios grandes.'
     ]
@@ -453,7 +453,7 @@ perro(
         "Displasia de cadera"
     ],
     [
-         'Realizar exámenes médicos seguido.',
+         'Realizar examenes medicos seguido.',
          'Ejercitar seguido.',
          'Tener en espacios grandes.',
          'Socializar y entrenar desde cachorro.'
@@ -493,66 +493,173 @@ perro(
     ]
 ).
 
-
+% 16. Rottweiler
 perro(
-    raza(prueba),
+    raza(rottweiler),
     tamanio(
-        pequenio
+        grande
     ),
     altura(
-        20,
-        35
+        55,
+        70
         ),
     peso(
-        3,
-        10
+        45,
+        100
         ),
     pelaje(
-        textura(suave),
+        textura(duro),
         largo(corto)
     ),
-    nivela_actividad(medio),
+    nivela_actividad(alto),
     [
+        "Displasia de cadera.",
+        "Enfermedad de von Willebrand.",
+        "Problemas de la vista.",
+        "Osteosarcoma.",
+        "Obesidad.",
+        "Hipotiroidismo."
     ],
     [
-         'Llevar un control sobre lo que come.',
-         'Realizar exámenes médicos seguido.',
+         'Realizar examenes medicos seguido.',
          'Ejercitar seguido.',
          'Tener en espacios grandes.',
-         'Cepillado/Limpieza constante.',
-         'Control de temperatura.',
          'Socializar y entrenar desde cachorro.'
     ]
 ).
 
 
+% 17.San Bernardo
+perro(
+    raza(san_bernardo),
+    tamanio(
+        grande
+    ),
+    altura(
+        80,
+        150
+        ),
+    peso(
+        45,
+        100
+        ),
+    pelaje(
+        textura(duro),
+        largo(largo)
+    ),
+    nivela_actividad(bajo),
+    [
+        "Displasia de cadera",
+        "Displasia de codo",
+        "Enfermedad de von Willebrand",
+        "Problemas de la vista"
+    ],
+    [
+         'Llevar un control sobre lo que come.',
+         'Realizar examenes medicos seguido.',
+         'Tener en espacios grandes.',
+         'Cepillado/Limpieza constante.'
+    ]
+).
+
+
+% 18.Pitbull
 perro(
     raza(prueba),
     tamanio(
-        pequenio
+        mediano
     ),
     altura(
-        20,
-        35
+        40,
+        55
         ),
     peso(
-        3,
-        10
+        10,
+        25
+        ),
+    pelaje(
+        textura(denso),
+        largo(corto)
+    ),
+    nivela_actividad(alto),
+    [
+        "Displasia de cadera enfermedad de von Willebrand.",
+        "Cataratas.",
+        "Atrofia progresiva de la retina.",
+        "Alergias.",
+        "Hipotiroidismo."
+    ],
+    [
+         'Realizar examenes medicos seguido.',
+         'Ejercitar seguido.',
+         'Socializar y entrenar desde cachorro.'
+    ]
+).
+
+% 19. Pastor Autraliano
+perro(
+    raza(prueba),
+    tamanio(
+        mediano
+    ),
+    altura(
+        40,
+        55
+        ),
+    peso(
+        25,
+        45
+        ),
+    pelaje(
+        textura(denso),
+        largo(medio)
+    ),
+    nivela_actividad(alto),
+    [
+        "Displasia de cadera y codo,	enfermedad de von Willebrand.",
+        "Problemas oculares, Collie Eye Anomaly.",
+        "Atrofia progresiva de retina.",
+        "Problemas respiratorios epilepsia.",
+        "Alergias."
+
+    ],
+    [
+         'Realizar examenes medicos seguido.',
+         'Ejercitar seguido.',
+         'Tener en espacios grandes.',
+         'Cepillado/Limpieza constante.',
+         'Control de temperatura.'
+    ]
+).
+
+% 20. Gran danés
+perro(
+    raza(gran_danes),
+    tamanio(
+        grande
+    ),
+    altura(
+        80,
+        150
+        ),
+    peso(
+        45,
+        100
         ),
     pelaje(
         textura(suave),
         largo(corto)
     ),
-    nivela_actividad(medio),
+    nivela_actividad(alto),
     [
+        "Displasia de cadera	la miocardiopatía dilatada.",
+        "Atrofia progresiva de la retina.",
+        "Osteosarcoma."
     ],
     [
-         'Llevar un control sobre lo que come.',
-         'Realizar exámenes médicos seguido.',
+         'Realizar examenes medicos seguido.',
          'Ejercitar seguido.',
-         'Tener en espacios grandes.',
-         'Cepillado/Limpieza constante.',
-         'Control de temperatura.',
+         'Tener en espacios grandes.',    
          'Socializar y entrenar desde cachorro.'
     ]
 ).

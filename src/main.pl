@@ -10,7 +10,7 @@ sistema :-
     main.
 
 obtener_tamanio(Tamanio):-
-    writeln('Cual es el tamaño de tu perro? (pequenio/mediano/grande):'),
+    writeln('Cual es el tamanio de tu perro? (pequenio/mediano/grande):'),
     read(Tamanio).
 
 obtener_altura(Altura) :-
